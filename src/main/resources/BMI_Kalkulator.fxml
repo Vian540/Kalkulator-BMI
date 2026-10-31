@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="641.0" prefWidth="466.0" spacing="10.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BMI_KalkulatorController">
+   <children>
+      <Label style="-fx-font-size: 26px; -fx-font-weight: bold;" text="Kalkulator BMI" />
+      <Label style="-fx-text-fill: #64748b;" text="Masukan nama">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameField" promptText="Contoh:Vian" />
+      <Label style="-fx-text-fill: #64748b;" text="Masukan tinggi badan(dalam cm)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="heightField" promptText="Contoh:188" />
+      <Label style="-fx-text-fill: #64748b;" text="Masukan berat badan(dalam kg)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="weightField" promptText="Contoh:75" />
+      <Button mnemonicParsing="false" onAction="#hitungBMI" prefHeight="26.0" prefWidth="415.0" style="-fx-background-color: #03C03C; -fx-text-fill: #FFFFFF;" text="Hitung BMI" />
+      <Label fx:id="hasilLabel" style="-fx-font-size: 20px;" text="BMI muncul disini" />
+   </children>
+   <padding>
+      <Insets bottom="28.0" left="28.0" right="28.0" top="28.0" />
+   </padding>
+</VBox>
