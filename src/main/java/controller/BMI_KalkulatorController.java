@@ -35,7 +35,7 @@ public class BMI_KalkulatorController {
             hasilLabel.setStyle("-fx-text-fill: #1b81e4;");
             hasilLabel.setText("Berhasil! BMI anda:" + Double.toString(kalkulator.hitungBMI()));
         }catch(NumberFormatException e){
-            errorHandling("Berat atau Tinggi tidak valid. Isi kembali(tidak boleh negatif dan  0)");
+            errorHandling("Berat atau Tinggi harus diisi(tidak boleh negatif dan  0)");
         }
         catch(IllegalArgumentException e){
             errorHandling(e.getMessage());
