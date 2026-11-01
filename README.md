@@ -37,5 +37,5 @@ mvn clean javafx:run
 
 ## Screenshot
 
-![BMI Calculator Screenshot](BMI%20Screenshot.png)
+![BMI Calculator Screenshot](BMI%20screenshot.png)
 ![BMI Calculator Screenshot](BMI%20Screenshot%20sucsess.png)
